@@ -12,6 +12,6 @@ webdriverio
     .setValue('#password','challenge!')
     .click('button')
     .pause(5000)
-    .click('#menu2-dropdown')
+    .url('https://demo.oneflowcloud.com/sku/add')
     .pause(5000)
     .end();
